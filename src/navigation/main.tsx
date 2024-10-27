@@ -7,7 +7,7 @@ const Drawer = createDrawerNavigator();
 
 export default function MainPage() {
     return (
-        <Drawer.Navigator initialRouteName="Events">
+        <Drawer.Navigator initialRouteName="News">
             <Drawer.Screen name="Events" component={EventsListScreen} options={{
                                headerTitle: 'Eventos principales',
                            }}/>
