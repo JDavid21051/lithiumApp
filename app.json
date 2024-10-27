@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "lithiumApp",
-    "slug": "lithiumApp",
+    "slug": "lithiumapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,6 +22,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "714db1d6-b6bb-4b32-94a1-44980649a14d"
+      }
+    },
+    "owner": "hohen_heim"
   }
 }
