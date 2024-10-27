@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
 import {View, Text, Image, Pressable} from 'react-native';
-import TimeAgo from '../time-ago/time-ago';
+import TimeAgo from '../../atoms/time-ago/time-ago';
 import {cardStyles} from './card-style';
-import {CardDateModel} from './card.model';
+import {PokeDataModel} from '../../../core/models/app-poke.model';
 import {TextAnimationStyle} from './text-animation.function';
 
-export default function Card(props: CardDateModel) {
+export default function Card(props: PokeDataModel) {
     const [isPress, setIsPress] = useState(false);
 
     const handlePress = () => {

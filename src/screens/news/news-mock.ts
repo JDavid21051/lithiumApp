@@ -1,7 +1,7 @@
-import {CardDateModel} from '../../ui/atoms/card/card.model';
+import {PokeDataModel} from '../../core/models/app-poke.model';
 
 
-export const MOCK_CARD_NEWS: CardDateModel[] = [
+export const MOCK_CARD_NEWS: PokeDataModel[] = [
     {
         title: 'This Week in Pokémon GO: 16-22 September 2024',
         imageUrl: 'https://pokemongohub.net/wp-content/uploads/2024/09/passimian-oranguru-research-day-696x392.jpg',

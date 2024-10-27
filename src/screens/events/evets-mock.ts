@@ -1,6 +1,6 @@
-import {CardDateModel} from '../../ui/atoms/card/card.model';
+import {PokeDataModel} from '../../core/models/app-poke.model';
 
-export const MOCK_CARD_DATA: CardDateModel[] = [
+export const MOCK_CARD_DATA: PokeDataModel[] = [
     {
         title: 'Community Day Rapidash and Galarian Rapidash in PvP',
         imageUrl: 'https://pokemongohub.net/wp-content/uploads/2024/09/974tw7x-696x392.png',

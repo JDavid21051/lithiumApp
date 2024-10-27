@@ -1,7 +1,7 @@
 import {differenceInDays, differenceInHours, differenceInMinutes, differenceInYears} from 'date-fns';
 import {Text} from 'react-native';
 import React from 'react';
-import {TextAnimationStyle} from '../card/text-animation.function';
+import {TextAnimationStyle} from '../../molecules/card/text-animation.function';
 
 export default function TimeAgo({ date, isPress }: { date: string, isPress: boolean }) {
     const now = new Date();

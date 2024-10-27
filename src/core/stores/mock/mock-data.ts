@@ -1,6 +1,6 @@
-import {CardDateModel} from '../../ui/atoms/card/card.model';
+import {PokeDataModel} from '../../models/app-poke.model';
 
-export const MOCK_EVENT: CardDateModel[] = [
+export const MOCK_EVENT: PokeDataModel[] = [
     {
         title: 'Lorem ipsum dolor sit amet, consectetur',
         imageUrl: 'https://picsum.photos/id/10/200/300',

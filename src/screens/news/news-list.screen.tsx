@@ -1,7 +1,7 @@
 import React from 'react';
 import {FlatList, View} from 'react-native';
 import {Text} from 'react-native-paper';
-import Card from '../../ui/atoms/card/card';
+import Card from '../../ui/molecules/card/card';
 import {mainScreenStyles} from '../home/home.style';
 import {MOCK_CARD_NEWS} from './news-mock';
 export default function NewsListScreen() {
