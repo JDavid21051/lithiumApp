@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "977938161591",
+    "firebase_url": "https://lithium-push-default-rtdb.firebaseio.com",
+    "project_id": "lithium-push",
+    "storage_bucket": "lithium-push.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977938161591:android:58d1f24147f4d006531232",
+        "android_client_info": {
+          "package_name": "com.hohenheim.lithiumapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8BGn3hYnzzBxsEc9a2VWUTl9qvo53Gt4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
